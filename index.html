@@ -3,18 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
     <title>フロントエンド講習</title>
 </head>
 
 <body>
-    <header>
-    <h1>HTMLを書き換えてみよう</h1>
-    </header>
 
-    <main>
-        <p id="choice">日付がどうたら</p>
-    </main>
+    <h3>こんにちはを英語(小文字)で何というか解答してください</h3>
+    <input type="text" id="userInput" placeholder="入力してください">
+    <button id="answerButton">解答</button>
+     <p id="result"></p>
+    
+     <input type="number" id="scoreInput" placeholder="点数を入力してください">
+     <button id="checkButton">チェック</button>
+     <p></p>
+
+     <p>
+        <label for="firstTestScore">初回テストの点数：</label>
+        <input type="number" id="firstTestScore" placeholder="初回テストの点数を入力">
+    </p>
+    
+    <p>
+        <label for="finalTestScore">最終テストの点数：</label>
+        <input type="number" id="finalTestScore" placeholder="最終テストの点数を入力">
+    </p>
+    
+    <p>
+        <button id="testButton">入力</button>
+    </p>
 
     <script src="kadai.js"></script>
 </body>
